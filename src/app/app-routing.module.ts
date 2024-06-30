@@ -8,7 +8,7 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { NotificationsComponent } from './components/notifications/notifications.component';
 
-const routes: Routes = [
+export const routes: Routes = [
   { path: 'orders', component: OrdersComponent },
   { path: 'order-details/:id', component: OrderDetailsComponent },
   { path: 'deliveries', component: DeliveryComponent },
@@ -22,4 +22,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

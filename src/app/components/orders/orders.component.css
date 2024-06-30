@@ -1,0 +1,41 @@
+/* orders.component.css */
+
+:host {
+    display: block;
+    padding: 20px;
+  }
+  
+  .orders-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .orders-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .orders-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .order-item.order-id {
+    font-weight: bold;
+  }
+  
+  .order-item.order-date {
+    font-size: 0.8em;
+    color: #666;
+  }
+  
+  .order-item.order-status {
+    font-size: 0.8em;
+    color: #666;
+  }

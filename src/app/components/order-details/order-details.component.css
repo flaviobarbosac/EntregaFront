@@ -1,0 +1,16 @@
+/* src/app/components/order-details/order-details.component.css */
+
+.order-details {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+  
+  .order-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .order-details p {
+    margin-bottom: 5px;
+  }

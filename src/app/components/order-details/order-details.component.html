@@ -1,0 +1,8 @@
+<!-- src/app/components/order-details/order-details.component.html -->
+<div *ngIf="order">
+    <h2>Detalhes do Pedido</h2>
+    <p>Número do Pedido: {{ order.id }}</p>
+    <p>Descrição: {{ order.description }}</p>
+    <p>Valor: {{ order.value }}</p>
+    <p>Endereço de Entrega: {{ order.deliveryAddress }}</p>
+  </div>

@@ -1,0 +1,10 @@
+<!-- src/app/components/delivery/delivery.component.html -->
+<div class="delivery-container">
+  <h2>Entregas</h2>
+  <ul class="delivery-list">
+    <li *ngFor="let delivery of deliveries">
+      <span class="order-id">Pedido: {{ delivery.orderId }}</span>
+      <span class="date-time">Data/Hora: {{ delivery.dateTime }}</span>
+    </li>
+  </ul>
+</div>

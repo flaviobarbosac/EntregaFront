@@ -1,0 +1,45 @@
+/* src/app/components/delivery/delivery.component.css */
+
+/* Estilo para o contêiner principal */
+.delivery-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para o título */
+  .delivery-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Estilo para a lista de entregas */
+  .delivery-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Estilo para cada item da lista de entregas */
+  .delivery-list li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estilo para o texto do pedido */
+  .delivery-list li .order-id {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Estilo para a data/hora da entrega */
+  .delivery-list li .date-time {
+    color: #666;
+  }
